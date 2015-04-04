@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="gbk" />
+		<title>美女-美女图片-唯美图片-性感美女写真mm-性感丝袜美腿-丝袜诱惑-4493美女图片</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="4493美女图片为您提供最新的唯美图片,美女明星写真、网络mm美女写真图片、动漫美女图片、体育美女图片等日韩美女图片,而且还有大量的性感美女写真、mm丝袜美腿、美女图片以及性感mm图片写真和mm图片,性感丝袜美腿,丝袜诱惑等,4493美女图片用最全的美女写真图片让您记住我们." />
+		<meta name="keywords" content="美女,mm图片,美女图片,性感美女,美女写真" />
+		<link rel="stylesheet" href="http://m.4493.com/css/index2.css?v20140922011" />
+		<style>
+			.friendlink{ padding:0px 10px; color:#999;}
+			.friendlink em{ padding:0px 5px; color:#ccc;}
+			.friendlink a{ color:#999;}
+		</style>
+		<!-- 请置于所有广告位代码之前 -->
+		<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+		<script type="text/javascript">
+			BAIDU_CLB_preloadSlots("828170", "816229", "841861", "920360");
+		</script>
+		<script type="text/javascript" src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
+		<!--<script type="text/javascript" src="http://www.4493.com/js/20131111/imglazyload.js"></script>-->
+		<script>
+			$(function() {
+				//字体大小的自适应，加上class=autosize即可
+				function e() {
+					var e = document.documentElement.clientWidth;
+					var font_size = e * .04 + "px";
+					var font_size_small = e * .03 + "px";
+					var font_size_big = e * .05 + "px";
+					//var padding = e * .01 ;
+					//if(padding>10){padding = 10}
+					$('.autosize').css('font-size', font_size);
+					$('.autosize2').css('font-size', font_size_small);
+					$('.autosize3').css('font-size', font_size_big);
+					//$('.swiper-slide img').css('padding',padding);
+				}
+				e();
+				$(window).on("orientationchange, resize",
+						function() {
+							e();
+						})
+					//关闭下载栏
+				$('#closedown').click(function() {
+					$('.appxz').css('display', 'none');
+				})
+			});
+			if (window != window.top) {
+				window.top.location = location;
+			}
+			 //导航开关
+			function navdisplay() {
+				$('.nav').css('display', 'block');
+				$('.navbtn').attr('onclick', 'navclose();');
+				$('.navbtn').attr('class', 'closenavbtn');
+			}
+
+			function navclose() {
+				$('.nav').css('display', 'none');
+				$('.closenavbtn').attr('onclick', 'navdisplay();');
+				$('.closenavbtn').attr('class', 'navbtn');
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="blank50"></div>
+		<div class="topfix">
+			<div class="headerbox">
+				<div class="header">
+					<a href="/" class="logo"></a>
+					<a href="javascript:;" class="navbtn" onClick="navdisplay();"></a>
+					<span>4493美图</span>
+				</div>
+				<ul class="nav">
+					<li id="nav1"><a href='http://m.4493.com/xingganmote/'>性感美女<i class="icon-arrow"></i></a>
+					</li>
+					<li id="nav8"><a href='http://m.4493.com/siwameitui/'>丝袜美腿<i class="icon-arrow"></i></a>
+					</li>
+					<li id="nav10"><a href='http://m.4493.com/gaoqingmeinv/'>高清美女<i class="icon-arrow"></i></a>
+					</li>
+					<li id="nav4"><a href='http://m.4493.com/wangluomeinv/'>网络美女<i class="icon-arrow"></i></a>
+					</li>
+					<li id="nav3"><a href='http://m.4493.com/weimeixiezhen/'>唯美写真<i class="icon-arrow"></i></a>
+					</li>
+					<li id="nav5"><a href='http://m.4493.com/tiyumeinv/'>体育美女<i class="icon-arrow"></i></a>
+					</li>
+					<li id="nav7"><a href='http://m.4493.com/motemeinv/'>模特美女<i class="icon-arrow"></i></a>
+					</li>
+					<li id="navstar"><a href='http://m.4493.com/star/'>明星专辑<i class="icon-arrow"></i></a>
+					</li>
+					<div class="downapp"><a href="http://api.4493.com/appdown/4493meitu_1.05.12.0.apk">点击下载手机客户端（安卓版）</a>
+					</div>
+					<script type="text/javascript">
+						 //document.getElementById('nav1').className = 'on';
+					</script>
+				</ul>
+			</div>
+		</div>
+		<!--APP下载-->
+		<p style="margin: 10px 1%;">
+			<a href="http://img.1985t.com/app/4493meitu20150204.apk">
+				<img src="http://www.4493.com/m/images/4493app.jpg" width="100%" alt="4493美女图片">
+			</a>
+		</p>
+		<!--APP下载-->
+		<div class="blank10" style="display:none;"></div>
+		<div class="adv90" style="display:block;">
+			<script type="text/javascript">
+				BAIDU_CLB_fillSlot("920360");
+			</script>
+		</div>
+		<div class="blank10" style="display:block;"></div>
+		<!--焦点图：focus-->
+		<div class="focusbox">
+			<div class="bingo-wrapper">
+				<ul class=pics id=pics>
+					<li class=bingo>
+						<a href="http://m.4493.com/xingganmote/30907.html">
+							<img src="http://img.1985t.com/uploads/previews/2015/03/0-ED4x5J.jpg"> </a>
+					</li>
+					<li class=bingo>
+						<a href="http://m.4493.com/xingganmote/28115.html">
+							<img src="http://img.1985t.com/uploads/previews/2014/12/0-tOekgg.jpg"> </a>
+					</li>
+					<li class=bingo>
+						<a href="http://m.4493.com/xingganmote/27443.html">
+							<img src="http://img.1985t.com/uploads/previews/2014/12/0-kqKnJb.jpg"> </a>
+					</li>
+					<li class=bingo>
+						<a href="http://m.4493.com/xingganmote/27395.html">
+							<img src="http://img.1985t.com/uploads/previews/2014/12/0-77YDKx.jpg"> </a>
+					</li>
+					<li class=bingo>
+						<a href="http://m.4493.com/xingganmote/27328.html">
+							<img src="http://img.1985t.com/uploads/previews/2014/12/0-BGSLEm.jpg"> </a>
+					</li>
+				</ul>
+				<div class=msg>
+					<ul class=tabFn id=tabFn>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript" src="http://m.4493.com/js/slide.js?v=223"></script>
+		</div>
+		<!--焦点图：focus-->
+		<div class="titline autosize3">精选推荐</div>
+		<ul class="tjlist autosize clearfix">
+			<li><a href="http://m.4493.com/star/sifang/"><em><img src="/image/32touming.png" /></em><img src="http://img.1985t.com/uploads/previews/2015/03/0-GeEEYa.jpg" /></a>
+			</li>
+			<li><a href="http://m.4493.com/star/xiaohua/"><em><img src="/image/32touming.png" /></em><img src="http://img.1985t.com/uploads/previews/2015/03/0-958pix.jpg" /></a>
+			</li>
+			<li><a href="http://m.4493.com/star/bijini/"><em><img src="/image/32touming.png" /></em><img src="http://img.1985t.com/uploads/previews/2015/03/0-lph2BO.jpg" /></a>
+			</li>
+			<li><a href="http://m.4493.com/star/jiepai/"><em><img src="/image/32touming.png" /></em><img src="http://img.1985t.com/uploads/previews/2015/03/0-eB4yOV.jpg" /></a>
+			</li>
+			<li><a href="http://m.4493.com/star/zfyh/"><em><img src="/image/32touming.png" /></em><img src="http://img.1985t.com/uploads/previews/2015/03/0-oZTAM6.jpg" /></a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/xilie/">
+					</em>
+					<img src="http://img.1985t.com/m/pics/xl.jpg">
+				</a>
+			</li>
+		</ul>
+		<div class="titline autosize3">最新美图</div>
+		<ul class="listpic clearfix">
+			<li>
+				<a href="http://m.4493.com/xingganmote/31753.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-vQLm4N.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/siwameitui/31748.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-CRPFg5.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/siwameitui/31747.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-VKLft1.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/weimeixiezhen/31746.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-JDO4Ui.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/weimeixiezhen/31745.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-gxuucz.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/weimeixiezhen/31744.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-9h7QRr.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/wangluomeinv/31743.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-Tw8cTq.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/wangluomeinv/31742.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-pTzRuX.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/wangluomeinv/31741.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-nIJ1gK.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/wangluomeinv/31740.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-Uilh9k.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/wangluomeinv/31739.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-rsYSgT.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/xingganmote/31738.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-dwEnuj.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/xingganmote/31737.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-S3R79j.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/xingganmote/31736.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-wj8Tq8.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/xingganmote/31735.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-lCVMdG.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+			<li>
+				<a href="http://m.4493.com/xingganmote/31734.html">
+					<img src="http://img.1985t.com/uploads/previews/2015/03/0-aduEGX.jpg" onerror="imgerror($(this));" />
+				</a>
+			</li>
+		</ul>
+		<script>
+			function imgerror($this) {
+				$this.attr('src', 'http://m.4493.com/image/imgbgtu.jpg');
+			}
+		</script>
+		<div class="adv90" style="display:block;">
+			<script type="text/javascript">
+				BAIDU_CLB_fillSlot("816229");
+			</script>
+		</div>
+		<div class="blank10"></div>
+		<div class="pageline autosize"><a href="javascript:;" id="jiazaibtn" onClick="jiazai('index');">点击更多↓</a>
+		</div>
+		<div class="adv90" style="display:block;">
+			<script type="text/javascript">
+				BAIDU_CLB_fillSlot("828170");
+			</script>
+		</div>
+		<div class="blank10"></div>
+		<div class="friendlink autosize2"><span>友情链接：</span><a href="http://m.4493.com/">4493美图</a><em>|</em><a href="http://m.uumnt.com" target="_blank">优优美女</a>
+		</div>
+		<div class="footer">&copy; www.4493.com 版权所有 湘ICP备14009150号-1
+			<p>联系邮箱：97653785@qq.com</p>
+		</div>
+		<script type="text/javascript">
+			var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cspan id='cnzz_stat_icon_30040472'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D30040472' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script>
+			function jiazai(cate) {
+				var page = arguments[1] ? arguments[1] : 1;
+				$("#jiazaibtn").text('加载中...');
+				//alert(222);
+				$.ajax({
+					type: "GET",
+					url: "/akcms_ajax3.php",
+					data: "cate=" + cate + "&page=" + page + "&pagenum=16&pagesize=16",
+					dataType: "json",
+					success: function(json) {
+						var json = eval(json);
+						var html = '';
+						var catepath = new Array(); //定义栏目路劲
+						catepath[1] = 'xingganmote';
+						catepath[2] = 'mingxingxiezhen';
+						catepath[3] = 'weimeixiezhen';
+						catepath[4] = 'wangluomeinv';
+						catepath[5] = 'tiyumeinv';
+						catepath[6] = 'dongmanmeinv';
+						catepath[7] = 'motemeinv';
+						catepath[8] = 'siwameitui';
+						catepath[9] = 'yule';
+						catepath[10] = 'gaoqingmeinv';
+						$.each(json, function(index) {
+							//循环获取数据    
+							var id = json[index].id;
+							var title = decodeURI(json[index].title);
+							var picture = json[index].picture;
+							var cateid = json[index].category;
+							var page = json[index].page;
+							html += "<li><a href='http://m.4493.com/" + catepath[cateid] + "/" + id + ".html'><img src='http://img.1985t.com/" + picture + "' /></a></li>";
+						});
+						//alert( "Data Saved: " + html );
+						$('.listpic').append(html);
+						$("#jiazaibtn").text('点击更多↓');
+						$("#jiazaibtn").attr('onclick', "jiazai('index'," + (page + 1) + ");");
+					},
+					error: function() {
+						alert('请检测网络环境，加载失败');
+					}
+				});
+			}
+		</script>
+
+		<!--广告-->
+		<script type="text/javascript">
+			var cpro_id = "u1570780"; //站长在Union 平台选择悬浮20:3的移动样式
+			(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id] = {
+				tn: "template_inlay_all_mobile_lu_rank_v1",
+				at: "text",
+				adn: 6,
+				rss2: "#FFFFFF",
+				rss1: "#333333",
+				xuanting: 3,
+				scale: "20.3"
+			};
+		</script>
+		<script type="text/javascript" src="http://cpro.baidustatic.com/cpro/ui/cm.js"></script>
+		<script type="text/javascript">
+			(function() {
+				var xuanting_close_id = "xuantingCloseBtn_" + window.cpro_id;
+				var xuanting_close_bt = document.getElementById(xuanting_close_id);
+				xuanting_close_bt.style.width = "40px";
+				xuanting_close_bt.style.height = "40px";
+				xuanting_close_bt.style.right = "-10px";
+				xuanting_close_bt.style.top = "-25px";
+			}());
+		</script>
+
+		<img style='display:none;' src='http://www.4493.com/akcms_inc.php?i=c1' />
+	</body>
+
+</html>
