@@ -27,7 +27,11 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/ExampleTheme" >
+<<<<<<< HEAD
         <activity android:name="com.sunsun.slidingmenu.activity.MainActivity" >
+=======
+        <activity android:name="com.sunsun.slidingmenu.common.MainActivity" >
+>>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

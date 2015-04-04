@@ -8,10 +8,17 @@ package com.handmark.pulltorefresh.library;
 
 public final class R {
 	public static final class anim {
+<<<<<<< HEAD
 		public static final int slide_in_from_bottom = 0x7f040009;
 		public static final int slide_in_from_top = 0x7f04000a;
 		public static final int slide_out_to_bottom = 0x7f04000b;
 		public static final int slide_out_to_top = 0x7f04000c;
+=======
+		public static final int slide_in_from_bottom = 0x7f040000;
+		public static final int slide_in_from_top = 0x7f040001;
+		public static final int slide_out_to_bottom = 0x7f040002;
+		public static final int slide_out_to_top = 0x7f040003;
+>>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
 	}
 	public static final class attr {
 		public static final int ptrAdapterViewBackground = 0x7f010010;
@@ -42,6 +49,7 @@ public final class R {
 		public static final int indicator_right_padding = 0x7f050000;
 	}
 	public static final class drawable {
+<<<<<<< HEAD
 		public static final int default_ptr_flip = 0x7f020074;
 		public static final int default_ptr_rotate = 0x7f020075;
 		public static final int indicator_arrow = 0x7f02007b;
@@ -64,6 +72,30 @@ public final class R {
 		public static final int pull_to_refresh_sub_text = 0x7f060056;
 		public static final int pull_to_refresh_text = 0x7f060055;
 		public static final int rotate = 0x7f060014;
+=======
+		public static final int default_ptr_flip = 0x7f020072;
+		public static final int default_ptr_rotate = 0x7f020073;
+		public static final int indicator_arrow = 0x7f020079;
+		public static final int indicator_bg_bottom = 0x7f02007a;
+		public static final int indicator_bg_top = 0x7f02007b;
+	}
+	public static final class id {
+		public static final int both = 0x7f06000a;
+		public static final int disabled = 0x7f06000b;
+		public static final int fl_inner = 0x7f060050;
+		public static final int flip = 0x7f060011;
+		public static final int gridview = 0x7f060000;
+		public static final int manualOnly = 0x7f06000c;
+		public static final int pullDownFromTop = 0x7f06000d;
+		public static final int pullFromEnd = 0x7f06000e;
+		public static final int pullFromStart = 0x7f06000f;
+		public static final int pullUpFromBottom = 0x7f060010;
+		public static final int pull_to_refresh_image = 0x7f060051;
+		public static final int pull_to_refresh_progress = 0x7f060052;
+		public static final int pull_to_refresh_sub_text = 0x7f060054;
+		public static final int pull_to_refresh_text = 0x7f060053;
+		public static final int rotate = 0x7f060012;
+>>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
 		public static final int scrollview = 0x7f060002;
 		public static final int webview = 0x7f060001;
 	}

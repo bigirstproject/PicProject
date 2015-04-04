@@ -72,5 +72,9 @@
 -keep class com.sunsun.picproject.view.AutoAdjustImageView { <init>(...); }
 
 # view AndroidManifest.xml #generated:30
+<<<<<<< HEAD
 -keep class com.sunsun.slidingmenu.activity.MainActivity { <init>(...); }
+=======
+-keep class com.sunsun.slidingmenu.common.MainActivity { <init>(...); }
+>>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
 
