@@ -9,9 +9,6 @@ import android.os.Message;
 
 /**
  * 描述:可处理耗时操作的activity
- * 
- * @author chenys
- * @since 2013-7-29 上午10:54:00
  */
 public abstract class BaseWorkerFragmentActivity extends BaseFragmentActivity {
 

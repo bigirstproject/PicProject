@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.kugou.framework.component.base.ImageAdapter;
 import com.kugou.framework.component.debug.KGLog;
 import com.sunsun.picproject.R;
+import com.sunsun.picproject.test.ViewPagerActivity;
 import com.sunsun.slidingmenu.bean.GalleryItemTable;
 import com.sunsun.slidingmenu.bean.MainPagerTable;
 
@@ -171,6 +172,7 @@ public class MainListAdatper extends ImageAdapter<MainPagerTable> {
 		public void onClick(View v) {
 			Toast.makeText(mContext, item.getUrl(), Toast.LENGTH_SHORT)
 					.show();
+			ViewPagerActivity.startViewPagerActivity(mContext);
 		}
 	}
 

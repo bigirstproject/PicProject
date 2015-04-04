@@ -4,14 +4,8 @@
     <string name="app_name">PicProject</string>
     <string name="properties">PicProject Properties</string>
     <string name="action_bar">美图羞羞</string>
-<<<<<<< HEAD
      <string name="subscribe">订阅</string>
     <!-- 首页 -->
     <string name="recommend">精选推荐</string>
-    
-=======
-    <!-- 首页 -->
-    <string name="recommend">精选推荐</string>
->>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
 
 </resources>

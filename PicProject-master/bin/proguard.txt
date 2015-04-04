@@ -67,14 +67,16 @@
 # view AndroidManifest.xml #generated:24
 -keep class com.kugou.framework.component.base.PicProjectApplication { <init>(...); }
 
+# view AndroidManifest.xml #generated:38
+-keep class com.sunsun.picproject.test.ViewPagerActivity { <init>(...); }
+
 # view res/layout/gallery_two_layout.xml #generated:10
 # view res/layout/gallery_two_layout.xml #generated:23
 -keep class com.sunsun.picproject.view.AutoAdjustImageView { <init>(...); }
 
 # view AndroidManifest.xml #generated:30
-<<<<<<< HEAD
 -keep class com.sunsun.slidingmenu.activity.MainActivity { <init>(...); }
-=======
--keep class com.sunsun.slidingmenu.common.MainActivity { <init>(...); }
->>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
+
+# view AndroidManifest.xml #generated:37
+-keep class com.sunsun.slidingmenu.activity.ViewPagerZoomActivity { <init>(...); }
 

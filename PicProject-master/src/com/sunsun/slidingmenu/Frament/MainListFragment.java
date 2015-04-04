@@ -17,10 +17,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-<<<<<<< HEAD
-=======
-import android.widget.Toast;
->>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
@@ -69,13 +65,6 @@ public class MainListFragment extends BaseWorkerFragment {
 
 					@Override
 					public void onLastItemVisible() {
-<<<<<<< HEAD
-						// Toast.makeText(getActivity(), "End of List!",
-						// Toast.LENGTH_SHORT).show();
-=======
-//						Toast.makeText(getActivity(), "End of List!",
-//								Toast.LENGTH_SHORT).show();
->>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
 					}
 				});
 		mAdapter = new MainListAdatper(getActivity());
@@ -87,11 +76,6 @@ public class MainListFragment extends BaseWorkerFragment {
 		@Override
 		public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
 			sendEmptyBackgroundMessage(REQUEST_CODE);
-<<<<<<< HEAD
-=======
-//			Toast.makeText(getActivity(), "onPullDownToRefresh",
-//					Toast.LENGTH_SHORT).show();
->>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
 		}
 
 		@Override
@@ -100,11 +84,6 @@ public class MainListFragment extends BaseWorkerFragment {
 			requsetMsg.what = REQUEST_MORE_CODE;
 			requsetMsg.arg1 = pagesize;
 			sendBackgroundMessage(requsetMsg);
-<<<<<<< HEAD
-=======
-//			Toast.makeText(getActivity(), "onPullUpToRefresh",
-//					Toast.LENGTH_SHORT).show();
->>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
 		}
 	}
 
@@ -248,12 +227,8 @@ public class MainListFragment extends BaseWorkerFragment {
 						galleryItemTable.setImage(Constants.BASE_URL
 								+ jsonObject.getString("picture"));
 						galleryItemTable.setUrl(Constants.BASE_URL
-<<<<<<< HEAD
 								+ "xingganmote/" + jsonObject.getString("id")
 								+ ".html");
-=======
-								+ "xingganmote/" + jsonObject.getString("id")+".html");
->>>>>>> c1d0aec349a53a19e24d7ac9651791e13de78853
 						table.add(galleryItemTable);
 					}
 					Message requsetMsg = new Message();
