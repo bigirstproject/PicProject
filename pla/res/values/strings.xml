@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PLASample</string>
+    <string name="ptr_pull_to_refresh">下拉刷新</string>
+    <string name="ptr_release_to_refresh">释放刷新</string>
+    <string name="ptr_loading">加载中...</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>    
+</resources>

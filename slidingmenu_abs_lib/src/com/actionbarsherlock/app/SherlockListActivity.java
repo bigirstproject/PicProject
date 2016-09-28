@@ -23,7 +23,7 @@ public abstract class SherlockListActivity extends ListActivity implements OnCre
 
     protected final ActionBarSherlock getSherlock() {
         if (mSherlock == null) {
-            mSherlock = ActionBarSherlock.wrap(this, ActionBarSherlock.FLAG_DELEGATE);
+            mSherlock = ActionBarSherlock.Sherlockwrap(this, ActionBarSherlock.FLAG_DELEGATE);
         }
         return mSherlock;
     }

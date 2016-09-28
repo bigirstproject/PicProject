@@ -1,0 +1,6 @@
+include ':PicProject-master'
+include ':library'
+include ':zoomLibrary'
+include ':slidingmenu_abs_lib'
+include ':pla'
+include ':slidingmenu_lib'

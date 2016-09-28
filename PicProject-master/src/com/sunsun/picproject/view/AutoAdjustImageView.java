@@ -1,12 +1,14 @@
 package com.sunsun.picproject.view;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-@SuppressLint("WrongCall")
+/** 
+ * 自适应比例ImageView
+ * 
+ */
 public class AutoAdjustImageView extends ImageView {
 
 	private AutoAdjustHelper mHelper = new AutoAdjustHelper();
@@ -43,8 +45,8 @@ public class AutoAdjustImageView extends ImageView {
 	public void setAdjustType(int type) {
 		mHelper.setAdjustType(type);
 	}
-
-	public void setScaleRate(float scale) {
+	
+	public void setScaleRate(float scale){
 		mHelper.setScale(scale);
 	}
 
@@ -68,7 +70,7 @@ public class AutoAdjustImageView extends ImageView {
 		mHelper.setRelativeHeight(custHeight);
 		mHelper.setRelativeWidth(custWidth);
 
-		mHelper.onMeasure(widthMeasureSpec, heightMeasureSpec);
+		mHelper.onMeasureView(widthMeasureSpec, heightMeasureSpec);
 		super.onMeasure(mHelper.getWidthSpec(), mHelper.getHeightSpec());
 	}
 }

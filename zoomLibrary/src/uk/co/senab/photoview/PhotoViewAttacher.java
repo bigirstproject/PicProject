@@ -27,6 +27,7 @@ import android.view.View;
 import android.view.View.OnLongClickListener;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
+import android.widget.Toast;
 import android.widget.ImageView.ScaleType;
 
 import java.lang.ref.WeakReference;
@@ -151,10 +152,12 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener, Vers
 						// forward long click listener
 						@Override
 						public void onLongPress(MotionEvent e) {
+							Log.d("test", "onLongPress onLongPress");
 							if(null != mLongClickListener) {
 								mLongClickListener.onLongClick(mImageView.get());
 							}
-						}});
+						}
+			});
 
 			mGestureDetector.setOnDoubleTapListener(this);
 
@@ -206,8 +209,10 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener, Vers
 		// If we don't have an ImageView, call cleanup()
 		if (null == imageView) {
 			cleanup();
-			throw new IllegalStateException(
-					"ImageView no longer exists. You should not use this PhotoViewAttacher any more.");
+			
+			return null;
+//			throw new IllegalStateException(
+//					"ImageView no longer exists. You should not use this PhotoViewAttacher any more.");
 		}
 
 		return imageView;
@@ -239,6 +244,7 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener, Vers
 	}
 
 	public final boolean onDoubleTap(MotionEvent ev) {
+		Log.d("test", "onDoubleTap onDoubleTap");
 		try {
 			float scale = getScale();
 			float x = ev.getX();
@@ -259,6 +265,7 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener, Vers
 	}
 
 	public final boolean onDoubleTapEvent(MotionEvent e) {
+		Log.d("test", "onDoubleTapEvent");
 		// Wait for the confirmed onDoubleTap() instead
 		return false;
 	}
@@ -348,6 +355,7 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener, Vers
 	}
 
 	public final boolean onSingleTapConfirmed(MotionEvent e) {
+		
 		ImageView imageView = getImageView();
 
 		if (null != imageView) {

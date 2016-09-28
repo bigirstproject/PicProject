@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- common -->
     <color name="red">#900</color>
     <color name="green">#090</color>
     <color name="blue">#009</color>
     <color name="white">#FFF</color>
     <color name="black">#000</color>
-     <!-- common -->
-  <color name="transparent">#00000000</color>
-    
+    <color name="transparent">#00000000</color>
+    <color name="global_default_cover_bg">#f2f1f1</color>
+    <color name="global_text_color">#ff444444</color>
+
+    <!-- global reload -->
+    <color name="global_bg_light">#fcf9f7</color>
+    <color name="activity_bg">#F9F9F9</color>
+    <color name="dialog_negative_text_color">#9A9A9A</color>
+    <color name="user_login">#E40550</color>
+
     <!-- listitem -->
+
     <color name="global_list_item_bg">#ffffff</color>
     <color name="global_list_item_pressed">#efefef</color>
 
@@ -18,11 +27,17 @@
     <color name="title_text_color">#FFFFFF</color>
     <color name="title_line_color">#c1c1c1</color>
     <color name="title_button_selected_color">#801D1C21</color>
+
     <!-- tab strip view -->
     <color name="tab_text_normal_color">#808080</color>
     <color name="tab_text_selected_color">#E40450</color>
     <color name="strip_color">#E40550</color>
     <color name="deep_red_color">#C60043</color>
     <color name="gap_line_bg">#E8E8E8</color>
+    <color name="main_bar_selected_bg">#E8E8E8</color>
+    <color name="first_title_color">#333333</color>
+    <!-- setting -->
+    <color name="setting_line_bg">#E8E8E8</color>
+    <color name="fivth_title_color">#BFBFBF</color>
 
 </resources>

@@ -17,7 +17,7 @@ public class AppCommonPref extends PreferenceOpenHelper {
 			synchronized (AppCommonPref.class) {
 				if (mInstance == null) {
 					Context context = PicProjectApplication.getInstance();
-					String name = context.getPackageName() + "appinfo";
+					String name = context.getPackageName() + "picProject";
 					mInstance = new AppCommonPref(context, name);
 				}
 			}
@@ -25,80 +25,28 @@ public class AppCommonPref extends PreferenceOpenHelper {
 		return mInstance;
 	}
 
-	public String getNewVersionName() {
-		return getString(Keys.NEW_VERSION_NAME, "");
+	public int getHasOpen() {
+		return getInt(Keys.HAS_OPEN, 0);
 	}
 
-	public void putNewVersionName(String versionName) {
-		putString(Keys.NEW_VERSION_NAME, versionName);
-	}
-
-	public String getNewVersionTitle() {
-		return getString(Keys.NEW_VERSION_TITLE, "");
-	}
-
-	public void putNewVersionTitle(String versionTitle) {
-		putString(Keys.NEW_VERSION_TITLE, versionTitle);
-	}
-
-	public String getNewVersionContent() {
-		return getString(Keys.NEW_VERSION_CONTENT, "");
-	}
-
-	public void putNewVersionContent(String versionContent) {
-		putString(Keys.NEW_VERSION_CONTENT, versionContent);
-	}
-
-	// public boolean getHasNewVersion() {
-	// return getBoolean(Keys.HAVE_NEW_VERSION, false);
-	// }
-	//
-	// public void putHasNewVersion(boolean value) {
-	// putBoolean(Keys.HAVE_NEW_VERSION, value);
-	// }
-
-	public int getVersionMustUpdate() {
-		return getInt(Keys.VERSION_MUST_UPDATE, 0);
-	}
-
-	public void putVersionMustUpdate(int code) {
-		putInt(Keys.VERSION_MUST_UPDATE, code);
-	}
-
-	public int getNewVersionCode() {
-		return getInt(Keys.NEW_VERSION_CODE, -1);
-	}
-
-	public void putNewVersionCode(int code) {
-		putInt(Keys.NEW_VERSION_CODE, code);
+	public void putHasOpen(int value) {
+		putInt(Keys.HAS_OPEN, value);
 	}
 
 	public static interface Keys {
-
 		/**
-		 * 是否强制更新
+		 * 是否开启有米广告
 		 */
-		public static String VERSION_MUST_UPDATE = "version_must_update";
-
+		public static String HAS_OPEN = "has_open";
+		
 		/**
-		 * 新版本号
+		 * 首页cache
 		 */
-		public static String NEW_VERSION_CODE = "new_version_code";
-
+		public static String PIC_MAIN_LIST_CAHCE = "pic_main_list_cache";
+		
 		/**
-		 * 新版本名
+		 * 首页banner
 		 */
-		public static String NEW_VERSION_NAME = "new_version_name";
-
-		/**
-		 * 新版本标题
-		 */
-		public static String NEW_VERSION_TITLE = "new_version_title";
-
-		/**
-		 * 新版本内容
-		 */
-		public static String NEW_VERSION_CONTENT = "new_version_content";
-
+		public static String PIC_MAIN_BANNER_CAHCE = "pic_main_banner_cache";
 	}
 }

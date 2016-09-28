@@ -19,10 +19,74 @@
         <item>Turkey</item>
         <item>Vulture</item>
     </string-array>
-      <declare-styleable name="pic_project">
-    <!-- AutoAdjustImageView -->
-    <attr name="adjustType" format="reference|string" />
-    <attr name="scaleRate" format="reference|float" />
-     </declare-styleable>
+    <string-array name="fragment_title">
+        <item>content_frame</item>
+        <item>xinganfragment</item>
+        <item>siwafragment</item>
+        <item>gaoxinfragment</item>
+        <item>wangluofragment</item>
+        <item>weimeifragment</item>
+        <item>tiyufragment</item>
+        <item>motefragment</item>
+        <item>mingxinfragment</item>
+    </string-array>
+    <string-array name="column_title">
+        <item>主页</item>
+        <item>性感美女</item>
+        <item>丝袜美腿</item>
+        <item>高清美女</item>
+        <item>网络美女</item>
+        <item>唯美写真</item>
+        <item>体育美女</item>
+        <item>模特美女</item>
+        <item>明星专辑</item>
+    </string-array>
+    <string-array name="column_url">
+        <item>http://m.4493.com/</item>
+        <item>http://m.4493.com/xingganmote/</item>
+        <item>http://m.4493.com/siwameitui/</item>
+        <item>http://m.4493.com/gaoqingmeinv/</item>
+        <item>http://m.4493.com/wangluomeinv/</item>
+        <item>http://m.4493.com/weimeixiezhen/</item>
+        <item>http://m.4493.com/tiyumeinv/</item>
+        <item>http://m.4493.com/motemeinv/</item>
+        <item>http://m.4493.com/star/</item>
+    </string-array>
+    <string-array name="test_fragment_title">
+        <item>daziranfragment</item>
+        <item>fengjingfragment</item>
+        <item>kuchefragment</item>
+        <item>tiyufragment</item>
+        <item>youxifragment</item>
+        <item>hunshafragment</item>
+        <item>zhuangxiufragment</item>
+    </string-array>
+    <string-array name="test_column_title">
+        <item>大自然壁纸</item>
+        <item>风景壁纸</item>
+        <item>酷车壁纸</item>
+        <item>体育壁纸</item>
+        <item>游戏壁纸</item>
+        <item>唯美婚纱壁纸</item>
+        <item>装修壁纸</item>
+    </string-array>
+    <string-array name="test_column_url">
+        <item>http://m.50tu.com/shehui/ziran/index.html</item>
+        <item>http://m.50tu.com/bizhi/fengjing/index.html</item>
+        <item>http://m.50tu.com/kuche/oumei/index.html</item>
+        <item>http://m.50tu.com/tiyu/redian/index.html</item>
+        <item>http://m.50tu.com/youxi/bizhi/index.html</item>
+        <item>http://m.50tu.com/hunsha/hunshazhao/index.html</item>
+        <item>http://m.50tu.com/zhuangxiu/xiaoguotu/index.html</item>
+    </string-array>
+    <string-array name="test_column_next_url">
+        <item>http://m.50tu.com/shehui/ziran/index_</item>
+        <item>http://m.50tu.com/bizhi/fengjing/index_</item>
+        <item>http://m.50tu.com/kuche/oumei/index_</item>
+        <item>http://m.50tu.com/tiyu/redian/index_</item>
+        <item>http://m.50tu.com/youxi/bizhi/index_</item>
+        <item>http://m.50tu.com/hunsha/hunshazhao/index_</item>
+        <item>http://m.50tu.com/zhuangxiu/xiaoguotu/index_</item>
+    </string-array>
 
 </resources>

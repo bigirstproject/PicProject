@@ -153,7 +153,7 @@ public abstract class ActionBarSherlock {
      * @return Instance to interact with the action bar.
      */
     public static ActionBarSherlock wrap(Activity activity) {
-        return wrap(activity, 0);
+        return Sherlockwrap(activity, 0);
     }
 
     /**
@@ -165,7 +165,7 @@ public abstract class ActionBarSherlock {
      * @param flags Option flags to control behavior.
      * @return Instance to interact with the action bar.
      */
-    public static ActionBarSherlock wrap(Activity activity, int flags) {
+    public static ActionBarSherlock Sherlockwrap(Activity activity, int flags) {
         //Create a local implementation map we can modify
         HashMap<Implementation, Class<? extends ActionBarSherlock>> impls =
                 new HashMap<Implementation, Class<? extends ActionBarSherlock>>(IMPLEMENTATIONS);

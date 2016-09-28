@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sunsun="http://schemas.android.com/apk/res/com.sunsun.picproject"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f9f9f9"
+    android:orientation="vertical" >
+
+    <com.sunsun.picproject.viewpager.InfiniteBannerView
+        android:id="@+id/banner_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        sunsun:adjustType="auto_adjust_scale_height"
+        sunsun:scaleRate="1.5" />
+
+    <LinearLayout
+        android:id="@+id/banner_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10dip"
+        android:layout_marginEnd="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</FrameLayout>

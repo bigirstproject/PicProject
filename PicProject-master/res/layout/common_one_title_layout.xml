@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green"
     android:gravity="center_vertical"
-    android:layout_height="match_parent"
     android:orientation="vertical" >
 
     <TextView
         android:id="@+id/gallery_title_one"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/common_text_five"
         android:layout_marginLeft="@dimen/gallery_left"
-        android:text="@string/recommend" />
+        android:layout_marginRight="@dimen/gallery_right"
+        android:background="@drawable/list_item_selector"
+        android:text="@string/recommend"
+        android:textSize="@dimen/common_text_five" />
 
 </LinearLayout>

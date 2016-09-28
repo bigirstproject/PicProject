@@ -12,7 +12,7 @@ import android.os.Message;
  * 描述:可处理耗时操作的fragment
  * 
  */
-public abstract class BaseWorkerFragment extends BaseFragment {
+public abstract class BaseWorkerFragment extends BaseCacheFragment {
 
     protected HandlerThread mHandlerThread;
 

@@ -19,6 +19,7 @@
     <dimen name="slidingmenu_offset">60dp</dimen>
     <dimen name="list_padding">10dp</dimen>
     <dimen name="shadow_width">15dp</dimen>
+    <dimen name="title_bar_height">48dp</dimen>
 
     <integer name="num_cols">1</integer>
     <!-- 通用字体大小 -->
@@ -34,11 +35,13 @@
     <dimen name="common_text_ten">34sp</dimen>
 
     <!-- 首页 -->
-    <dimen name="gallery_left">10dip</dimen>
-    <dimen name="gallery_right">10dip</dimen>
-    <dimen name="gallery_left_small">5dip</dimen>
-    <dimen name="gallery_right_small">5dip</dimen>
-    <dimen name="gallery_top">10dip</dimen>
-    <dimen name="gallery_bottom">10dip</dimen>
+    <dimen name="gallery_left">2dip</dimen>
+    <dimen name="gallery_right">2dip</dimen>
+    <dimen name="gallery_left_small">1dip</dimen>
+    <dimen name="gallery_right_small">1dip</dimen>
+    <dimen name="gallery_top_small">1dip</dimen>
+    <dimen name="gallery_bottom_small">1dip</dimen>
+    <dimen name="gallery_top">2dip</dimen>
+    <dimen name="gallery_bottom">2dip</dimen>
 
 </resources>

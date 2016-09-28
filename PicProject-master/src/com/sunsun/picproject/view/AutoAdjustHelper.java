@@ -27,9 +27,8 @@ public class AutoAdjustHelper {
 	public void init(Context context, AttributeSet attrs) {
 		if (attrs != null) {
 			TypedArray types = context.obtainStyledAttributes(attrs,
-					R.styleable.pic_project);
-			mAutoAdjustTypeStr = types
-					.getString(R.styleable.pic_project_adjustType);
+					R.styleable.sunsun);
+			mAutoAdjustTypeStr = types.getString(R.styleable.sunsun_adjustType);
 			if (STR_AUTO_ADJUST_WIDTH.equals(mAutoAdjustTypeStr)) {
 				mAutoAdjustType = AUTO_ADJUST_WIDTH;
 			} else if (STR_AUTO_ADJUST_HEIGHT.equals(mAutoAdjustTypeStr)) {
@@ -41,7 +40,7 @@ public class AutoAdjustHelper {
 			} else {
 				mAutoAdjustType = AUTO_ADJUST_NONE;
 			}
-			mScale = types.getFloat(R.styleable.pic_project_scaleRate, 1.0f);
+			mScale = types.getFloat(R.styleable.sunsun_scaleRate, 1.0f);
 
 			types.recycle();
 		}
@@ -83,7 +82,7 @@ public class AutoAdjustHelper {
 		return mViewHeightSpec;
 	}
 
-	public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+	public void onMeasureView(int widthMeasureSpec, int heightMeasureSpec) {
 
 		int viewWidth = MeasureSpec.getSize(widthMeasureSpec);
 		int viewHeight = MeasureSpec.getSize(heightMeasureSpec);

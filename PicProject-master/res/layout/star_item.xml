@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pic="http://schemas.android.com/apk/res/com.sunsun.picproject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/green"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/gallery_bottom_small"
+        android:layout_marginLeft="@dimen/gallery_left"
+        android:layout_marginRight="@dimen/gallery_right_small"
+        android:layout_marginTop="@dimen/gallery_top_small"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.sunsun.picproject.view.AutoAdjustImageView
+            android:id="@+id/gallery_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_placeholder_big"
+            android:scaleType="fitXY"
+            pic:adjustType="auto_adjust_scale_height"
+            pic:scaleRate="0.75" />
+
+        <TextView
+            android:id="@+id/text_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/pic_text_bg"
+            android:gravity="center|bottom"
+            android:paddingBottom="5dip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_text_five" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/gallery_bottom_small"
+        android:layout_marginLeft="@dimen/gallery_left_small"
+        android:layout_marginRight="@dimen/gallery_right"
+        android:layout_marginTop="@dimen/gallery_top_small"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.sunsun.picproject.view.AutoAdjustImageView
+            android:id="@+id/gallery_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_placeholder_big"
+            android:scaleType="fitXY"
+            pic:adjustType="auto_adjust_scale_height"
+            pic:scaleRate="0.75" />
+
+        <TextView
+            android:id="@+id/text_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/pic_text_bg"
+            android:gravity="center|bottom"
+            android:paddingBottom="5dip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_text_five" >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,8 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/listview"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="5dip"
-    android:paddingRight="5dip" />
+    android:background="@color/white" >
 
+    <RelativeLayout
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dip"
+        android:background="@drawable/home_item_selector"
+        android:gravity="center_vertical"
+        android:paddingEnd="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingStart="5dip" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentTop="true"
+            android:background="@color/setting_line_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/home_setting_icon"
+            android:drawablePadding="11dp"
+            android:drawableStart="@drawable/home_setting_icon"
+            android:ellipsize="end"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="@string/setting"
+            android:textColor="@color/first_title_color"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentBottom="true"
+            android:background="@color/setting_line_bg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/recommend"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/setting"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/home_item_selector"
+        android:gravity="center_vertical"
+        android:paddingEnd="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingStart="5dip" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentTop="true"
+            android:background="@color/setting_line_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/home_setting_icon"
+            android:drawablePadding="11dp"
+            android:drawableStart="@drawable/home_setting_icon"
+            android:ellipsize="end"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="@string/recommend"
+            android:textColor="@color/first_title_color"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentBottom="true"
+            android:background="@color/setting_line_bg" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/recommend"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+</RelativeLayout>

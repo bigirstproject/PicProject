@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sunsun="http://schemas.android.com/apk/res/com.sunsun.picproject"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.sunsun.picproject.view.AutoAdjustImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_placeholder_big"
+        android:scaleType="fitXY"
+        sunsun:adjustType="auto_adjust_scale_height"
+        sunsun:scaleRate="1.875" >
+    </com.sunsun.picproject.view.AutoAdjustImageView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/pic_text_bg"
+        android:gravity="center|bottom"
+        android:paddingBottom="8dip"
+        android:textColor="@color/white"
+        android:textSize="@dimen/common_text_five" />
+
+</RelativeLayout>

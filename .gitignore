@@ -1,0 +1,7 @@
+/PicProject-master/bin
+/library/bin
+/build
+/.idea
+/.gradle
+picture.iml
+/*.properties

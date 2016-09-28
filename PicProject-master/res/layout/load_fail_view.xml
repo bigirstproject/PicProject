@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/activity_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/no_network_pic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="@string/no_network_text"
+        android:textColor="@color/dialog_negative_text_color"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dip"
+        android:text="@string/no_network_text_mark"
+        android:textColor="@color/dialog_negative_text_color"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_reload"
+        android:layout_width="200dip"
+        android:layout_height="45dip"
+        android:layout_marginTop="17dip"
+        android:background="@drawable/reload_button_selector"
+        android:text="@string/reload"
+        android:textColor="@color/user_login"
+        android:textSize="16sp" />
+
+</LinearLayout>

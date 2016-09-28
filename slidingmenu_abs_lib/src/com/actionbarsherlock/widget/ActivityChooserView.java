@@ -236,7 +236,7 @@ class ActivityChooserView extends ViewGroup implements ActivityChooserModelClien
         mDefaultActivityButton = (FrameLayout) findViewById(R.id.abs__default_activity_button);
         mDefaultActivityButton.setOnClickListener(mCallbacks);
         mDefaultActivityButton.setOnLongClickListener(mCallbacks);
-        mDefaultActivityButtonImage = (ImageView) mDefaultActivityButton.findViewById(R.id.abs__image);
+        mDefaultActivityButtonImage = (ImageView) mDefaultActivityButton.findViewById(R.id.abs_image);
 
         mExpandActivityOverflowButton = (FrameLayout) findViewById(R.id.abs__expand_activities_button);
         mExpandActivityOverflowButton.setOnClickListener(mCallbacks);

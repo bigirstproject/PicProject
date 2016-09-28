@@ -1,6 +1,8 @@
 
 package com.kugou.framework.component.base;
 
+import com.umeng.analytics.MobclickAgent;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,7 +16,7 @@ import android.widget.Toast;
  * 描述:所有Fragment的父类,提供刷新UI的Handler
  * 
  */
-public class BaseFragment extends Fragment {
+public abstract class BaseFragment extends Fragment {
 
     protected View mView;
 
@@ -119,21 +121,14 @@ public class BaseFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        // MobclickAgent.onResume(getActivity());
-
+      MobclickAgent.onPageStart(tag());
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        // MobclickAgent.onPause(getActivity());
+        MobclickAgent.onPageStart(tag());
     }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        // MobclickAgent.onError(getActivity());
-    }
-
+    
+    protected abstract String tag();
 }

@@ -26,7 +26,6 @@ public class SwitchImageLoader {
 	private static SwitchImageLoader INSTANCE;
 	private ImageLoader mImageLoader;
 	public static DisplayImageOptions DEFAULT_DISPLAYER = getDisplayOptions(0); // 默认是0
-	public static DisplayImageOptions DEFAULT_USER_DISPLAYER = getDisplayOptions(R.drawable.ic_person_default_dark);
 	public static DisplayImageOptions DEFAULT_CHANNEL_SMALL_DISPLAYER = getDisplayOptions(R.drawable.ic_placeholder_small);
 	public static DisplayImageOptions DEFAULT_CHANNEL_BIG_DISPLAYER = getDisplayOptions(R.drawable.ic_placeholder_big);
 	public static DisplayImageOptions DEFAULT_ARTICLE_ITEM_DISPLAYER = getDisplayOptions(R.drawable.article_list_item_loading);
