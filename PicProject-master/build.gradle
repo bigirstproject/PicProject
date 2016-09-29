@@ -1,16 +1,80 @@
 apply plugin: 'com.android.application'
 
-dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
-    compile project(':library')
-    compile project(':slidingmenu_lib')
-    compile project(':pla')
-    compile project(':zoomLibrary')
-}
-
 android {
-    compileSdkVersion 19
-    buildToolsVersion "23.0.3"
+    compileSdkVersion "${compile_sdk_version}" as Integer
+    buildToolsVersion "${build_tools_version}"
+
+    defaultConfig {
+        applicationId "com.sunsun.picproject"
+        minSdkVersion "${min_sdk_version}" as Integer
+        targetSdkVersion "${target_sdk_version}" as Integer
+        versionCode "${version_code}" as Integer
+        versionName "${version_name}"
+        // dex突破65535的限制
+        //  multiDexEnabled true
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "official"]
+    }
+
+    productFlavors {
+        official {}
+//        yingyongbao {}
+//        _360 {}
+//        xiaomi {}
+//        baidu {}
+//        wandoujia {}
+//        huawei {}
+//        jifeng {}
+//        anzhi {}
+//        oppo {}
+        //gradle assembleofficialRelease
+    }
+
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('/keystore/picProject.jks')
+            keyPassword '20160831'
+            keyAlias 'asia'
+            keyPassword '20160831'
+        }
+
+        debug {
+            storeFile file('/keystore/picProject.jks')
+            keyPassword '20160831'
+            keyAlias 'asia'
+            keyPassword '20160831'
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            //混淆编译
+            minifyEnabled true
+            //移除无用的资源文件
+            shrinkResources true
+            //apk对其
+            zipAlignEnabled true
+            buildConfigField "boolean", "IS_DEBUG_PACKAGE", "true"
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+        }
+        release {
+            debuggable true
+            //混淆编译
+            minifyEnabled true
+            //移除无用的资源文件
+            shrinkResources true
+            //apk对其
+            zipAlignEnabled true
+            buildConfigField "boolean", "IS_DEBUG_PACKAGE", "false"
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+        }
+    }
 
     sourceSets {
         main {
@@ -22,17 +86,29 @@ android {
             res.srcDirs = ['res']
             assets.srcDirs = ['assets']
         }
-
-        // Move the tests to tests/java, tests/res, etc...
-        instrumentTest.setRoot('tests')
-
-        // Move the build types to build-types/<type>
-        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
-        // This moves them out of them default location under src/<type>/... which would
-        // conflict with src/ being used by the main source set.
-        // Adding new build types or product flavors should be accompanied
-        // by a similar customization.
-        debug.setRoot('build-types/debug')
-        release.setRoot('build-types/release')
     }
+
+    lintOptions {
+        abortOnError false
+    }
+    dexOptions {
+        // javaMaxHeapSize "2g"
+        incremental true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
 }
+
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+//    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile project(':library')
+    compile project(':slidingmenu_lib')
+    compile project(':pla')
+    compile project(':zoomLibrary')
+}
+

@@ -449,7 +449,7 @@ ViewTreeObserver.OnGlobalLayoutListener, ViewTreeObserver.OnTouchModeChangeListe
 
         setVerticalScrollBarEnabled(true);
         TypedArray a = context.obtainStyledAttributes(R.styleable.View);
-        initializeScrollbars(a);
+       // initializeScrollbars(a);
         a.recycle();
     }
 
@@ -1777,7 +1777,7 @@ ViewTreeObserver.OnGlobalLayoutListener, ViewTreeObserver.OnTouchModeChangeListe
             }
         }
     }
-    
+
     public void stopScroll() {
     	if(mFlingRunnable != null) {
     		mFlingRunnable.endFling();

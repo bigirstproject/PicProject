@@ -44,8 +44,6 @@ public class HttpUploadHelper {
      * 上传
      * 
      * @param task
-     * @param requestPackage
-     * @param responsePackage
      */
     public void putUploadTask(IUploadTask task) {
 
