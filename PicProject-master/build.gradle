@@ -35,14 +35,14 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('/keystore/picProject.jks')
+            storeFile file('\\PicProject-master\\picProject.jks')
             keyPassword '20160831'
             keyAlias 'asia'
             keyPassword '20160831'
         }
 
         debug {
-            storeFile file('/keystore/picProject.jks')
+            storeFile file('\\PicProject-master\\picProject.jks')
             keyPassword '20160831'
             keyAlias 'asia'
             keyPassword '20160831'
