@@ -21,6 +21,7 @@ import android.text.TextUtils;
 
 import com.kugou.framework.component.base.AppException;
 import com.kugou.framework.component.base.BaseApplication;
+import com.kugou.framework.component.base.PicProjectApplication;
 import com.kugou.framework.component.debug.KGLog;
 
 
@@ -200,7 +201,7 @@ public class KGHttpClient {
      * 资源包下载
      * 
      * @param requestPackage
-     * @param downloadListener
+     * @param downloadResListener
      * @throws AppException
      */
     public static void download(RequestPackage requestPackage,
@@ -283,7 +284,7 @@ public class KGHttpClient {
         }
 
         // cmwap设置代理
-        boolean isCmwap = NetWorkUtil.isCmwap(BaseApplication.getInstance());
+        boolean isCmwap = NetWorkUtil.isCmwap(PicProjectApplication.getInstance());
         if (isCmwap) {
             httpClient.getHostConfiguration().setProxy("10.0.0.172", 80);
         }
@@ -299,7 +300,7 @@ public class KGHttpClient {
         httpClient.getParams().setParameter(HttpMethodParams.RETRY_HANDLER,
                 new DefaultHttpMethodRetryHandler());
         // cmwap设置代理
-        boolean isCmwap = NetWorkUtil.isCmwap(BaseApplication.getInstance());
+        boolean isCmwap = NetWorkUtil.isCmwap(PicProjectApplication.getInstance());
         if (isCmwap) {
             httpClient.getHostConfiguration().setProxy("10.0.0.172", 80);
         }
@@ -348,7 +349,7 @@ public class KGHttpClient {
 
     public static String getUserAgent() {
         if (TextUtils.isEmpty(sUserAgent)) {
-            PackageInfo pi = BaseApplication.getInstance().getPackageInfo();
+            PackageInfo pi = PicProjectApplication.getInstance().getPackageInfo();
             StringBuilder ua = new StringBuilder();
             // 产品名称
             ua.append("Platform");

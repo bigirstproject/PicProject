@@ -165,7 +165,6 @@ public abstract class WaterPullBaseFragment<E> extends BaseEmptyFragment
 	 * 
 	 * @param refresh
 	 * @param data
-	 * @param hasMore
 	 * @param replace
 	 */
 	protected void requestListFinish(int refresh, List<E> data, boolean replace) {

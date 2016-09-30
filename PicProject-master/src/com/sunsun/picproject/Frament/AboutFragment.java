@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.kugou.framework.component.base.BaseFragment;
 import com.kugou.framework.component.base.PicProjectApplication;
 import com.sunsun.picproject.R;
+import com.sunsun.picproject.util.CommonUtil;
 
 public class AboutFragment extends BaseFragment {
 
@@ -25,7 +26,7 @@ public class AboutFragment extends BaseFragment {
 		versionTextView = (TextView) view.findViewById(R.id.tv_app_version);
 		versionTextView.setText(String.format(
 				getResources().getString(R.string.format_version),
-				PicProjectApplication.getInstance().getAppVersion()));
+				CommonUtil.getAppVersion(getActivity())));
 
 		copyrightTextView = (TextView) view.findViewById(R.id.tv_copyright);
 		copyrightTextView.setText(String.format(
